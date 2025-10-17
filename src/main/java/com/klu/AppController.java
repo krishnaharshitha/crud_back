@@ -38,8 +38,8 @@ public class AppController {
     }
 
     // DELETE (optional, uncomment if needed)
-    @DeleteMapping("/delete/{id}")
-    public String delete(@PathVariable int id) {
-        return s.deleteData(id);
-    }
+   // @DeleteMapping("/delete/{id}")
+    //public String delete(@PathVariable int id) {
+        //return s.deleteData(id);
+    //}
 }
